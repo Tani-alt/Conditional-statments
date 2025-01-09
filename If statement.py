@@ -1,9 +1,10 @@
 #PrintIFstatement
-A=98
+A= int(input("Enter any number"))
 if A > 0:
    print (A,"is positive")
+else:
+   print (A,"is not positive")
+   
 
 
-Y=-65
-if Y < 0:
-   print (Y,"is negitive")
+
